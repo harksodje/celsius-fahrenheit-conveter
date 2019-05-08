@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Slack</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+    <nav class=" navbar navbar-expand-lg   navbar-dark  #9c27b0 purple" >
+        <a class="navbar-brand" href="login.html">
+          <img src="slack.jpg" height="30" class="d-inline-block align-top"
+          alt="mdb logo"> SlackClone
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item "><a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- sign up form starts -->
+    <div class="container" style="margin-top:100px; margin-bottom:100px;">
+        <div class="row">
+            <div class="col col-lg-6 col-sm-12 col-md-8 my-auto mx-auto">
+                <div class="card">
+                    <h5 class="card-header  #9c27b0 purple white-text text-center py-4">
+                        <strong>Sign up</strong>
+                    </h5>
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+                        <!-- Form -->
+                        <form class="text-center" style="color: #757575;">
+                            <div class="form-row">
+                                <div class="col">
+                                <!-- First name -->
+                                <div class="md-form">
+                                    <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                    <label for="materialRegisterFormFirstName">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormLastName" class="form-control">
+                                        <label for="materialRegisterFormLastName">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- E-mail -->
+                            <div class="md-form mt-0">
+                                <input type="email" id="materialRegisterFormEmail" class="form-control">
+                                <label for="materialRegisterFormEmail">E-mail</label>
+                            </div>
+                            <!-- Username -->
+                            <div class="md-form mt-0">
+                                <input type="text" id="materialRegisterFormUsername" class="form-control">
+                                <label for="materialRegisterFormUsername">Username</label>
+                            </div>
+                            <!-- Password -->
+                            <div class="md-form">
+                                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                                <label for="materialRegisterFormPassword">Password</label>
+                                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                                    At least 8 characters and 1 digit
+                                </small>
+                            </div>
+                            <div class="md-form">
+                                    <select class="form-control">
+                                            <option value=disabled>country</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <label class="form-control-label"></label>
+                            </div>
+                            <!-- Phone number -->
+                            <div class="md-form">
+                                <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                <label for="materialRegisterFormPhone">Phone number</label>
+                                <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                                    Optional - for two step authentication
+                                </small>
+                            </div>
+
+                            <!-- Newsletter -->
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                                <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe to our newsletter</label>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <button style=" border: 2px solid  #9c27b0 !important; background-color: transparent!important; color:  #9c27b0!important; "
+                            class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit"><a href="#" 
+                            style="color: #9c27b0;" >sign up</a></button>
+
+                            <!-- Social register -->
+                            <p>or sign up with:</p>
+
+                            <a type="button" class="btn-floating btn-fb btn-sm">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-tw btn-sm">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-li btn-sm">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-git btn-sm">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <hr>
+
+                            <!-- Terms of service -->
+                            <p>By clicking
+                                <em>Sign up</em> you agree to our
+                                <a href="" target="_blank" style="color: #9c27b0;">terms of service</a>
+
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+     <!--sign up form ends -->
+    <footer class="page-footer font-small special-color-#9c27b0 purple pt-4">
+        <!-- Footer Elements -->
+        <div class="container">
+        <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-fb mx-1" title="join our facebook"><i class="fab fa-facebook-f"> </i></a>
+                </li>
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-tw mx-1" title="join our twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-gplus mx-1"title="join our google-plus"><i class="fab fa-google-plus-g"> </i></a>
+                </li>
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-li mx-1" title="join our linkedin"><i class="fab fa-linkedin-in"> </i></a>
+                </li>
+                <li class="list-inline-item"><a   href="#" class="btn-floating btn-dribbble mx-1"title="join our dribble"><i class="fab fa-dribbble"> </i></a>
+                </li>
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-instagram mx-1" title="join our instagram"><i class="fab fa-instagram "> </i></a>
+                </li>
+                <li class="list-inline-item"><a  href="#" class="btn-floating btn-pinterest mx-1"title="join our pinterest"><i class="fab fa-pinterest "> </i></a>
+                </li>
+            </ul>
+            <!-- Social buttons -->
+        </div>
+        <!-- Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"> © 2018 Copyright:
+            <a href="https://hub67.com"> Hub67.com</a>
+        </div>
+        <!-- Copyright -->
+          
+            </footer>
+<!-- Material form register -->
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
